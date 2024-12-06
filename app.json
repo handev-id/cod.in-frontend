@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "cod.in-frontend",
-    "slug": "cod.in-frontend",
+    "slug": "codin-frontend",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.handev.codinfrontend"
     },
     "android": {
       "adaptiveIcon": {
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d6ac09ff-f300-48e0-850a-1a8925fbbe65"
+      }
+    },
+    "owner": "handev"
   }
 }
